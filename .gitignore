@@ -29,6 +29,8 @@ dist/
 *.csv
 *.json
 !/server.json
+!vercel.json
+!/vercel.json
 !frontend/package*.json
 !frontend/tsconfig*.json
 !frontend/.oxlintrc.json
