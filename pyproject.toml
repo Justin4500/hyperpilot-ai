@@ -245,3 +245,6 @@ dev-dependencies = [
     "pytest-timeout==2.4.0",
     "pydantic_settings==2.15.0",
 ]
+
+[tool.vercel]
+entrypoint = "backend.app.main:app"
